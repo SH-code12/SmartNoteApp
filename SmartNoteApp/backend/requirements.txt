@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+asyncpg   # for PostgreSQL
+requests  # to call Gemini API
+python-dotenv
