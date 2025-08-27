@@ -13,7 +13,7 @@ class NoteOut(BaseModel):
     summary: str | None = None
     tags: str | None = None
 
-  #  class Config:
-   #     orm_mode = True
+    class Config:
+        orm_mode = True
 
 

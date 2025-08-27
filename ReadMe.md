@@ -1,4 +1,8 @@
 ## Draft
+
+source venv/bin/activate
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
 1. python --version
 
 2. python -m venv venv
@@ -42,4 +46,13 @@ sudo systemctl enable postgresql
 4. node -v
 5. npm -v
 6. sudo npm install axios react-router-dom
-7. npm start
+7. npm init -y
+8. npm install react react-dom axios react-router-dom react-scripts
+## Style
+10. npm install -D tailwindcss@^3.3.3 postcss autoprefixer
+
+11. ./node_modules/.bin/tailwindcss init -p
+
+start
+1. npm start
+
